@@ -14,7 +14,6 @@ public class Main{
 
     public static void main(String[] args) {
 
-
         AbstractApplicationContext context =
                  new AnnotationConfigApplicationContext(SpringConfig.class);
 
@@ -47,8 +46,10 @@ public class Main{
         queryService.queryDistricts();
         queryService.queryBuyers();
         queryService.queryShops();
-        queryService.queryBookNamesAanPrice();
-
+        queryService.queryBookNamesAndPrice();
+        queryService.queryBuyerShop();
+        queryService.queryBuy();
+        queryService.querySum60();
 
 
 

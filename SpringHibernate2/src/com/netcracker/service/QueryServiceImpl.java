@@ -1,7 +1,6 @@
 package com.netcracker.service;
 
 import com.netcracker.dao.QueryDAO;
-import com.netcracker.dao.ShopDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -31,8 +30,20 @@ public class QueryServiceImpl implements QueryService {
         queryDAO.queryShops();
     }
 
-    public void queryBookNamesAanPrice(){
-        queryDAO.queryBookNamesAanPrice();
+    public void queryBookNamesAndPrice(){
+        queryDAO.queryBookNamesAndPrice();
+    }
+
+    public void queryBuyerShop() {
+        queryDAO.queryBuyerShop();
+    }
+
+    public void queryBuy() {
+        queryDAO.queryBuy();
+    }
+
+    public void querySum60() {
+        queryDAO.querySum60();
     }
 
 }

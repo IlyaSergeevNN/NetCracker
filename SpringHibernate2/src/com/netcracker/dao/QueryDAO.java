@@ -16,8 +16,14 @@ public interface QueryDAO {
     void queryShops();
 
     //3c
-    void queryBookNamesAanPrice();
+    void queryBookNamesAndPrice();
 
     //4a
     void queryBuyerShop();
+
+    //4b
+    void queryBuy();
+
+    //5a
+    void querySum60();
 }

@@ -12,6 +12,12 @@ public interface QueryService {
 
     void queryShops();
 
-    void queryBookNamesAanPrice();
+    void queryBookNamesAndPrice();
+
+    void queryBuyerShop();
+
+    void queryBuy();
+
+    void querySum60();
 
 }
